@@ -14,16 +14,21 @@ module.exports = {
     'camelcase': ['warn'],
     'indent': ['warn', 2],
     'comma-style': ['warn'],
+    'key-spacing': ['warn'],
     'comma-dangle': ['warn'],
     'prefer-const': ['warn'],
     'prefer-spread': ['warn'],
     'comma-spacing': ['warn'],
     'semi': ['error', 'never'],
+    'keyword-spacing': ['warn'],
     'space-infix-ops': ['warn'],
     'quotes': ['warn', 'single'],
     'func-call-spacing': ['warn'],
     'no-trailing-spaces': ['warn'],
     'prefer-destructuring': ['warn'],
+    'no-multiple-empty-lines': ['warn', {
+      'max': 1
+    }],
     'space-before-function-paren': ['warn'],
     'arrow-body-style': ['warn', 'as-needed'],
     'arrow-spacing': ['warn', {
