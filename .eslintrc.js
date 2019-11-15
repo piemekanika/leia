@@ -34,8 +34,14 @@ module.exports = {
     'arrow-spacing': ['warn', {
       'before': true, 'after': true
     }],
+    'vue/eqeqeq': 'warn',
+    'vue/key-spacing': 'warn',
     'vue/comma-dangle': 'warn',
-    'vue/arrow-spacing': 'warn'
+    'vue/arrow-spacing': 'warn',
+    'vue/block-spacing': 'warn',
+    'vue/space-unary-ops': 'warn',
+    'vue/keyword-spacing': 'warn',
+    'vue/v-on-function-call': 'warn',
   },
   parserOptions: {
     parser: 'babel-eslint'
