@@ -33,7 +33,9 @@ module.exports = {
     'arrow-body-style': ['warn', 'as-needed'],
     'arrow-spacing': ['warn', {
       'before': true, 'after': true
-    }]
+    }],
+    'vue/comma-dangle': 'warn',
+    'vue/arrow-spacing': 'warn'
   },
   parserOptions: {
     parser: 'babel-eslint'
