@@ -40,8 +40,7 @@ module.exports = {
     'vue/arrow-spacing': 'warn',
     'vue/block-spacing': 'warn',
     'vue/space-unary-ops': 'warn',
-    'vue/keyword-spacing': 'warn',
-    'vue/v-on-function-call': 'warn',
+    'vue/v-on-function-call': 'warn'
   },
   parserOptions: {
     parser: 'babel-eslint'
